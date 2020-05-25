@@ -1,23 +1,30 @@
-import React from 'react';
-import montreal from '../images/montreal.jpg';
-import toronto from '../images/toronto.jpg';
-import vancouver from '../images/vancouver.jpg';
-import ottawa from '../images/ottawa.jpeg';
+import React, { Fragment } from 'react';
 
 const Locations = () => {
   return (
-    <div className='location-container'>
-      <div className='toronto'>Toronto</div>
-      <div className='montreal'>Montreal</div>
-      <div className='vancouver'>Vancouver</div>
-      <div className='ottawa'>Ottawa</div>
-    </div>
+    <Fragment>
+      <div className='new'>
+        <h2>Explore by neighborhood</h2>
+        <h4>We provide living options in popular neighborhoods.</h4>
+        <h4>Browse by location</h4>
+      </div>
+      <div className='location-container'>
+        <div className='toronto'>
+          {' '}
+          <a href='#'></a>Toronto
+        </div>
+        <div className='montreal'>
+          <a href='#'></a>Montreal
+        </div>
+        <div className='vancouver'>
+          <a href='#'></a> Vancouver
+        </div>
+        <div className='ottawa'>
+          <a href='#'></a>Ottawa
+        </div>
+      </div>
+    </Fragment>
   );
 };
 
 export default Locations;
-
-// <img src={toronto} alt='toronto'></img>
-// <img src={montreal} alt='montreal'></img>
-// <img src={vancouver} alt='vancouver'></img>
-// <img src={ottawa} alt='ottawa'></img>

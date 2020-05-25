@@ -16,6 +16,7 @@
   align-items: center;
   justify-content: center;
   height: 90vh;
+  margin-bottom: 20px;
 }
 .main-container p {
   font-size: 1em;
@@ -38,6 +39,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin-bottom: 150px;
 }
 
 .location-container img {
@@ -52,17 +54,9 @@ h1 {
   color: white;
 }
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .toronto {
   background-image: url('./images/toronto.jpg');
   height: 100%;
-
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
@@ -70,14 +64,85 @@ h1 {
 
   display: flex;
   flex-direction: column;
-  align-content: center;
+  text-align: center;
   align-items: center;
+  justify-content: center;
   height: 350px;
   width: 300px;
-
-  /* border: 1px solid #ddd;
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-  margin: 25px; */
+  margin: 10px;
 }
+
+.ottawa {
+  background-image: url('./images/ottawa.jpeg');
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  width: 300px;
+  margin: 10px;
+}
+
+.vancouver {
+  background-image: url('./images/vancouver.jpg');
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  width: 300px;
+  margin: 10px;
+}
+
+.montreal {
+  background-image: url('./images/montreal.jpg');
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  width: 300px;
+  margin-bottom: 50px;
+}
+.new {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-wrapper {
+  height: 200px;
+}
+/* .montreal:hover {
+  opacity: 0.3;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+} */
+
+/* .location-container:hover .middle {
+  opacity: 1;
+} */

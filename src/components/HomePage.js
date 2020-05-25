@@ -5,8 +5,8 @@ const HomePage = () => {
   return (
     <div className='main-container'>
       <p>
-        Search our listings for entire or shared homes with<br></br> flexible
-        durations and payments plans.
+        Search our listings for entire or shared homes <br></br> with flexible
+        durations and payments plans
       </p>
 
       <h1>
@@ -26,13 +26,13 @@ const HomePage = () => {
             <a href='#'>Toronto</a>
           </li>
           <li>
+            <a href='#'>Montreal</a>
+          </li>
+          <li>
             <a href='#'>Vancouver</a>
           </li>
           <li>
             <a href='#'>Ottawa</a>
-          </li>
-          <li>
-            <a href='#'>Montreal</a>
           </li>
         </ul>
       </div>
