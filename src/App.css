@@ -33,3 +33,51 @@ h1 {
   margin-inline-start: 0px;
   margin-inline-end: 0;
 }
+
+.location-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.location-container img {
+  border: 1px solid #ddd;
+  /* width: 100%; */
+  max-width: 400px;
+  height: auto;
+  margin: 25px;
+
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.toronto {
+  background-image: url('./images/toronto.jpg');
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  height: 350px;
+  width: 300px;
+
+  /* border: 1px solid #ddd;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin: 25px; */
+}
