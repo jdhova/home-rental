@@ -136,13 +136,37 @@ h1 {
 .main-wrapper {
   height: 200px;
 }
-/* .montreal:hover {
-  opacity: 0.3;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-} */
 
-/* .location-container:hover .middle {
-  opacity: 1;
-} */
+.process-1,
+.process-2,
+.process-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.process-1 img,
+.process-2 img,
+.process-3 img {
+  height: 450px;
+  width: 400px;
+}
+
+.main-process {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.hclass {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
