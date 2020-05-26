@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import HomePage from './HomePage';
 import Locations from './Locations';
 import Process from './Process';
+import Footer from './Footer';
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <HomePage />
       <Locations />
       <Process />
+      <Footer />
     </Fragment>
   );
 }

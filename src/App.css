@@ -170,3 +170,29 @@ h1 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
 }
+
+.main-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-self: center;
+  background-color: black;
+  color: aliceblue;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.main-footer ul {
+  margin-top: 20px;
+  list-style-type: none;
+  color: aliceblue;
+}
+.main-footer li {
+  margin-top: 20px;
+}
+
+.font {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
