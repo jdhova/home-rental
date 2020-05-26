@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import { Link } from 'react-router-dom';
 
 const Locations = () => {
   return (
@@ -11,16 +12,16 @@ const Locations = () => {
       <div className='location-container'>
         <div className='toronto'>
           {' '}
-          <a href='#'></a>Toronto
+          <Link to='toronto'></Link>Toronto
         </div>
         <div className='montreal'>
-          <a href='#'></a>Montreal
+          <Link to='Montreal'></Link>Montreal
         </div>
         <div className='vancouver'>
-          <a href='#'></a> Vancouver
+          <Link to='vancouver'></Link> Vancouver
         </div>
         <div className='ottawa'>
-          <a href='#'></a>Ottawa
+          <Link to='/ottawa'></Link>Ottawa
         </div>
       </div>
     </Fragment>
