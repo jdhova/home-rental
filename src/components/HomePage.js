@@ -25,7 +25,7 @@ const HomePage = () => {
           </button>
           <ul className='dropdown-menu'>
             <li>
-              <Link to='/'>Toronto</Link>
+              <Link to='/Toronto'>Toronto</Link>
             </li>
             <li>
               <Link to='/Montreal'>Montreal</Link>

@@ -12,16 +12,16 @@ const Locations = () => {
       <div className='location-container'>
         <div className='toronto'>
           {' '}
-          <Link to='toronto'></Link>Toronto
+          <Link to='/Toronto'>Toronto</Link>
         </div>
         <div className='montreal'>
-          <Link to='Montreal'></Link>Montreal
+          <Link to='/Toronto'>Montreal</Link>
         </div>
         <div className='vancouver'>
-          <Link to='vancouver'></Link> Vancouver
+          <Link to='/Toronto'>Vancouver</Link>
         </div>
         <div className='ottawa'>
-          <Link to='/ottawa'></Link>Ottawa
+          <Link to='/Toronto'>Ottawa</Link>
         </div>
       </div>
     </Fragment>
