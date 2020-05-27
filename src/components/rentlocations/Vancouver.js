@@ -12,28 +12,40 @@ const Vancouver = () => {
       <div className='main-toronto'>
         <div className='toronto-apartment1'>
           <img src={vancouver1} alt='toronto1 ' />
-          <p>here we move </p>
+          <p className='mt-info'>
+            <strong>Vancouver </strong>
+          </p>
         </div>
         <div className='toronto-apartment2'>
           <img src={vancouver2} alt='toronto1 ' />
-          <p>here we move </p>
+          <p className='mt-info'>
+            <strong>Vancouver </strong>
+          </p>
         </div>
         <div className='toronto-apartment3'>
           <img src={vancouver3} alt='toronto1 ' />
-          <p>here we move </p>
+          <p className='mt-info'>
+            <strong>Vancouver </strong>
+          </p>
         </div>
         <div className='toronto-apartment4'>
           <img src={vancouver4} alt='toronto1 ' />
-          <p>here we move </p>
+          <p className='mt-info'>
+            <strong>Vancouver </strong>
+          </p>
         </div>
         <div className='toronto-apartment5'>
           <img src={vancouver5} alt='toronto1 ' />
-          <p>here we move </p>
+          <p className='mt-info'>
+            <strong>Vancouver </strong>
+          </p>
         </div>
 
         <div className='toronto-apartment6'>
           <img src={vancouver6} alt='toronto1 ' />
-          <p>here we move </p>
+          <p className='mt-info'>
+            <strong>Vancouver </strong>
+          </p>
         </div>
       </div>
     </Fragment>

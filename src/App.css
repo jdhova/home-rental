@@ -250,3 +250,7 @@
   /* grid-template-rows: repeat(8, 5vw); */
   grid-gap: 90px;
 }
+
+.mt-info {
+  margin-top: 25px;
+}

@@ -12,28 +12,40 @@ const Montreal = () => {
       <div className='main-toronto'>
         <div className='toronto-apartment1'>
           <img src={montreal1} alt='toronto1 ' />
-          <p>here we move </p>
+          <p className='mt-info'>
+            <strong>Montreal </strong>
+          </p>
         </div>
         <div className='toronto-apartment2'>
           <img src={montreal2} alt='toronto1 ' />
-          <p>here we move </p>
+          <p className='mt-info'>
+            <strong>Montreal </strong>
+          </p>
         </div>
         <div className='toronto-apartment3'>
           <img src={montreal3} alt='toronto1 ' />
-          <p>here we move </p>
+          <p className='mt-info'>
+            <strong>Montreal </strong>
+          </p>
         </div>
         <div className='toronto-apartment4'>
           <img src={montreal4} alt='toronto1 ' />
-          <p>here we move </p>
+          <p className='mt-info'>
+            <strong>Montreal </strong>
+          </p>
         </div>
         <div className='toronto-apartment5'>
           <img src={montreal5} alt='toronto1 ' />
-          <p>here we move </p>
+          <p className='mt-info'>
+            <strong>Montreal </strong>
+          </p>
         </div>
 
         <div className='toronto-apartment6'>
           <img src={montreal6} alt='toronto1 ' />
-          <p>here we move </p>
+          <p className='mt-info'>
+            <strong>Montreal </strong>
+          </p>
         </div>
       </div>
     </Fragment>
