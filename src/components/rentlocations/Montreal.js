@@ -13,38 +13,51 @@ const Montreal = () => {
         <div className='toronto-apartment1'>
           <img src={montreal1} alt='toronto1 ' />
           <p className='mt-info'>
-            <strong>Montreal </strong>
+            <strong>
+              {' '}
+              Single room in Shares house Derby Ct<br></br> Location Montreal{' '}
+            </strong>
           </p>
         </div>
         <div className='toronto-apartment2'>
           <img src={montreal2} alt='toronto1 ' />
           <p className='mt-info'>
-            <strong>Montreal </strong>
+            <strong>
+              Single Room in shares house <br></br>Location Montreal{' '}
+            </strong>
           </p>
         </div>
         <div className='toronto-apartment3'>
           <img src={montreal3} alt='toronto1 ' />
           <p className='mt-info'>
-            <strong>Montreal </strong>
+            <strong>
+              Montreal 1-bed Studio <br></br> Location Montreal
+            </strong>
           </p>
         </div>
         <div className='toronto-apartment4'>
           <img src={montreal4} alt='toronto1 ' />
           <p className='mt-info'>
-            <strong>Montreal </strong>
+            <strong>
+              Montreal 2-bed apartment <br></br> Location Montreal
+            </strong>
           </p>
         </div>
         <div className='toronto-apartment5'>
           <img src={montreal5} alt='toronto1 ' />
           <p className='mt-info'>
-            <strong>Montreal </strong>
+            <strong>
+              Montreal 1-bed Studio <br></br> Location Montreal
+            </strong>
           </p>
         </div>
 
         <div className='toronto-apartment6'>
           <img src={montreal6} alt='toronto1 ' />
           <p className='mt-info'>
-            <strong>Montreal </strong>
+            <strong>
+              Montreal Shared room in House <br></br> Location Montreal
+            </strong>
           </p>
         </div>
       </div>
