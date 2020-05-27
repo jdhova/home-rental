@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
-import toronto1 from '../../images/apart1T.jpeg';
-import toronto2 from '../../images/apart2T.jpeg';
-import toronto3 from '../../images/apart3T.jpeg';
-import toronto4 from '../../images/apart4T.jpeg';
-import toronto5 from '../../images/apart5T.jpeg';
-import toronto6 from '../../images/apart6T.jpeg';
+import toronto1 from '../../images/apartimg/apart1T.jpeg';
+import toronto2 from '../../images/apartimg/apart2T.jpeg';
+import toronto3 from '../../images/apartimg/apart3T.jpeg';
+import toronto4 from '../../images/apartimg/apart4T.jpeg';
+import toronto5 from '../../images/apartimg/apart5T.jpeg';
+import toronto6 from '../../images/apartimg/apart6T.jpeg';
 
 const Toronto = () => {
   return (
