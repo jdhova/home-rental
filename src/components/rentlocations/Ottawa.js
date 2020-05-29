@@ -13,7 +13,7 @@ const Ottawa = () => {
         <div className='toronto-apartment1'>
           <img src={ottawa1} alt='toronto1 ' />
           <p className='mt-info'>
-            <strong>here we move </strong>
+            <strong>Ottawa </strong>
           </p>
         </div>
         <div className='toronto-apartment2'>
