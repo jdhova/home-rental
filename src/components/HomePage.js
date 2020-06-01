@@ -21,7 +21,6 @@ const HomePage = () => {
             data-toggle='dropdown'
           >
             Choose Location
-            {/* <span className='caret' /> */}
           </button>
           <ul className='dropdown-menu'>
             <li>
